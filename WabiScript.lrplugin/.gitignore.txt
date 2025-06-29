@@ -1,0 +1,22 @@
+# Ignore compiled files and logs
+*.log
+*.tmp
+*.bak
+
+# Ignore macOS & Windows system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore Lightroom lock files (if any sneak in)
+*.lock
+
+# Secrets
+WabiScript.lrplugin/secrets.lua
+
+# VS Code settings (optional, if you use it)
+.vscode/
+
+# Node or Python dependencies (if used later)
+node_modules/
+__pycache__/
